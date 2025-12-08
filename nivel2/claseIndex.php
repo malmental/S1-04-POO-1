@@ -52,3 +52,5 @@ echo "Tercera Tirada: " . PHP_EOL;
 tirarTodosLosDatos($dados);
 echo "Total de tiradas: " . PokerDice::verTotalTiradas() . PHP_EOL;
 echo "" . PHP_EOL;
+
+?>

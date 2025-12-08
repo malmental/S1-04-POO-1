@@ -11,6 +11,8 @@ class PokerDice
         $this->caraActual = null;
     }
 
+    // $this->para acceder al atributo
+    // self::permite acceder a todos los atributos
     public function tirar() {
         $indiceAleatorio = array_rand($this->caras);
         $this->caraActual = $this->caras[$indiceAleatorio];
@@ -25,8 +27,9 @@ class PokerDice
         return $this->caraActual;
     }
 
-    // Metodo estatico para ver el total de tiradas
     public static function verTotalTiradas() {
         return self::$totalTiradas;
     }
 }
+
+?>
